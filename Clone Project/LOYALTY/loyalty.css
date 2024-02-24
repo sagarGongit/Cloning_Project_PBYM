@@ -1,0 +1,118 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#header{
+    display: flex;
+    gap:50px;
+    background-color:rgb(236, 227, 227);
+}
+#header a{
+    text-decoration: none;
+    color: gray;
+}
+#header img{
+    width: 18px;
+    height: 19px;
+    margin-right: 10px;
+
+}
+#header div p{
+    margin-top: 15px;
+}
+#req {
+    display: flex;
+    gap: 30px;
+}
+#req a{
+    text-decoration: none;
+    color:gray;
+}
+#header>div>img {
+    width: 130px;
+    height: 50px;
+}
+#sbox{
+    display: flex;
+    width: 150px;
+    border:transparent;
+    align-items: center;
+}
+#sbox a{
+    text-decoration: none;
+    color: gray;
+}
+#inp{
+width: 300px;
+height: 40px;
+color: black;
+border: none;
+outline: none;
+border-bottom: 1px solid red;
+font-size : 1.25em;
+margin-left: 15px;
+cursor: pointer;
+}
+#sbox #sepho{
+    margin-top:10px;
+     width: 270px;
+     height: 100px;
+     text-align: center;
+     margin-right: 350px;
+     
+}
+#sbox img {
+    margin-left: 155px;
+    width: 20px;
+    height: 20px;
+}
+#shopping {
+    display:flex;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 0%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+#shopping :nth-child(1){
+    
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 0%;
+}
+#shopping :nth-child(2){
+    margin-right: 0%;
+    margin-left: 20px;
+    padding: 0%;
+}
+
+span{
+    display: flex;
+}
+#cicon {
+    margin-top: 14px;
+    cursor: pointer;
+    font-size: 29px;
+}
+#sicon{
+    margin-top: 14px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 29px;
+}
+#drop_down {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#drop_down a {
+    text-decoration: none;
+    color: black;
+}
+#drop_down a:hover{
+    color: pink;
+}
